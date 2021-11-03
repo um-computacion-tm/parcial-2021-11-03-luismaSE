@@ -8,9 +8,7 @@ class Buscaminas():
         self.board = []
         self.show = []
         self.crear_board()
-
         self.crear_show()
-        self.show_board()
 
     def crear_show(self):
         for rows in range(self.rows):
